@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.TarotLlamaSplash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#000000</item> <!-- 배경색 -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/card_back</item> <!-- 이미지 -->
+        <item name="windowSplashScreenIconBackgroundColor">#000000</item>
+        <item name="postSplashScreenTheme">@style/Theme.TarotLlama</item> <!-- 메인 테마로 전환 -->
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+</resources>
